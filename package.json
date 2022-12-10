@@ -1,0 +1,24 @@
+{
+  "name": "phonebook-graphql-backend",
+  "version": "1.0.0",
+  "description": "GraphQL version of the phonebook backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyc94/phonebook-graphql-backend.git"
+  },
+  "author": "EC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyc94/phonebook-graphql-backend/issues"
+  },
+  "homepage": "https://github.com/eyc94/phonebook-graphql-backend#readme",
+  "dependencies": {
+    "@apollo/server": "^4.2.2",
+    "graphql": "^16.6.0"
+  }
+}
